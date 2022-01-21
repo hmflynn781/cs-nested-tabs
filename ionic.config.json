@@ -1,0 +1,7 @@
+{
+  "name": "cs-nested-routes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
