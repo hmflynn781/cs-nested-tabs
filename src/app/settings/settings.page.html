@@ -1,32 +1,12 @@
 <ion-header [translucent]="true">
-
   <ion-toolbar>
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title>
-      Settings
-    </ion-title>
+    <ion-title> Settings </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-    <ion-tabs>    
-      <ion-tab-bar slot="top">
-        <ion-tab-button tab="setting-a">
-          <ion-icon name="triangle"></ion-icon>
-          <ion-label>A</ion-label>
-        </ion-tab-button>
-
-        <ion-tab-button tab="setting-b">
-          <ion-icon name="ellipse"></ion-icon>
-          <ion-label>B</ion-label>
-        </ion-tab-button>
-
-        <ion-tab-button tab="setting-c">
-          <ion-icon name="square"></ion-icon>
-          <ion-label>C</ion-label>
-        </ion-tab-button>
-      </ion-tab-bar>
-    </ion-tabs>
+  <app-tabs-header></app-tabs-header>
 </ion-content>

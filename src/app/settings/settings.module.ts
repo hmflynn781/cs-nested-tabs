@@ -7,15 +7,11 @@ import { IonicModule } from '@ionic/angular';
 import { SettingsPageRoutingModule } from './settings-routing.module';
 
 import { SettingsPage } from './settings.page';
+import { AppTabsHeader } from '../shared/tabs-header/tabs-header.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    SettingsPageRoutingModule
-  ],
-  declarations: [SettingsPage],
-  exports: [SettingsPage] // This was added for the page
+  imports: [CommonModule, FormsModule, IonicModule, SettingsPageRoutingModule],
+  declarations: [SettingsPage, AppTabsHeader],
+  exports: [SettingsPage], // This was added for the page
 })
 export class SettingsPageModule {}
